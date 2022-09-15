@@ -78,7 +78,7 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 
 
   - Response : 
-![postman-response-get](postman-response-get.PNG)
+![postman-response-get](img/postman-response-get.PNG)
 
 #### Swagger : via [ce lien](http://localhost:8081/swagger-ui/index.html)
 
