@@ -70,10 +70,10 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 ###### Liste d'équipes
 
   - Request :  
-  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
-   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
-   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
-   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.
+  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement:  
+   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.  
+   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page.  
+   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.  
 ![postman-request-get](img/postman-request-get.PNG)
 
 
@@ -94,10 +94,10 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 ###### Liste d'équipes
 
   - Request :  
-  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
-   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
-   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
-   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.
+  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement:  
+   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.  
+   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page.  
+   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.  
 ![swagger-request-get](img/swagger_get.PNG)
 
 
