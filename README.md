@@ -60,16 +60,16 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 
 ###### L'ajout d'une équipe
 
-  - Request : 
+  - Request :  
 ![postman-request-post](img/postman-request-post.PNG)
 
 
-  - Response : 
+  - Response :  
 ![postman-response-post](img/postman-response-post.PNG)
 
 ###### Liste d'équipes
 
-  - Request : 
+  - Request :  
   dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
    -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
    -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
@@ -77,23 +77,23 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 ![postman-request-get](img/postman-request-get.PNG)
 
 
-  - Response : 
+  - Response :  
 ![postman-response-get](img/postman-response-get.PNG)
 
 #### Swagger : via [ce lien](http://localhost:8081/swagger-ui/index.html)
 
 ###### L'ajout d'une équipe
 
-  - Request : 
+  - Request :  
 ![swagger_request.PNG](img/swagger_request.PNG)
 
 
-  - Response : 
+  - Response :  
 ![swagger_response-post](img/swagger_response.PNG)
 
 ###### Liste d'équipes
 
-  - Request : 
+  - Request :  
   dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
    -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
    -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
@@ -101,7 +101,7 @@ Pour tester le fonctionnement de l'API il y a deux méthodes :
 ![swagger-request-get](img/swagger_get.PNG)
 
 
-  - Response : 
+  - Response :  
 ![swagger-response-get](img/swagger_response_get.PNG)
 
 
