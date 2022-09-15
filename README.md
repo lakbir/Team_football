@@ -45,7 +45,7 @@ Pour se connecter à la base de données :
 ## Documentation API
 
 Pour accéder à l'architucture et la structure d'API ils suffit de cliquer sur [ce lien](http://localhost:8081/v3/api-docs)
-![database](img/database_H2.JPG)
+![database](img/api-docs.PNG)
 
 ## Documentation & Schémas des méthodes REST
 
@@ -53,4 +53,55 @@ Pour accéder à la documentation et les schémas des méthodes REST via [ce lie
 ![swagger](img/swagger.PNG)
 
 ## Test API
+
+Pour tester le fonctionnement de l'API il y a deux méthodes : 
+
+#### Postman : 
+
+###### L'ajout d'une équipe
+
+  - Request : 
+![postman-request-post](img/postman-request-post.PNG)
+
+
+  - Response : 
+![postman-response-post](img/postman-response-post.PNG)
+
+###### Liste d'équipes
+
+  - Request : 
+  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
+   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
+   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
+   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.
+![postman-request-get](img/postman-request-get.PNG)
+
+
+  - Response : 
+![postman-response-get](postman-response-get.PNG)
+
+#### Swagger : via [ce lien](http://localhost:8081/swagger-ui/index.html)
+
+###### L'ajout d'une équipe
+
+  - Request : 
+![swagger_request.PNG](img/swagger_request.PNG)
+
+
+  - Response : 
+![swagger_response-post](img/swagger_response.PNG)
+
+###### Liste d'équipes
+
+  - Request : 
+  dans la requête envoyé pour récupérer la liste d'équipes il y a trois paramètres à envoyé facultativement: 
+   -`name` : pour faire la recherche par nom d'équipe, par défaut est vide.
+   -`page` : la pagination et pour spécifier la page souhaiter à retourner, par défaut est 0 pour retourner la première page
+   -`size` : pour spécifier le nombre d'équipes souhaiter retourner par page, par défaut est 10.
+![swagger-request-get](img/swagger_get.PNG)
+
+
+  - Response : 
+![swagger-response-get](img/swagger_response_get.PNG)
+
 
